@@ -1,0 +1,41 @@
+* { 
+  font-size: 12px;
+  outline: none;
+  list-style: none;
+}
+.comment-section {  
+  margin: 50px auto;
+  width: 500px; 
+  border: 1px solid #f7e600; 
+  border-radius: 9px;
+  padding: 20px;
+}
+.comment-section h1 { 
+  font-size: 25px;
+  color: gray;
+}
+.comment-section .comment-section-list li:nth-child(1) { 
+  list-style: disc;
+}
+
+.comment-section .comment-section-list-btm{ 
+  margin-top: 10px;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  padding: 10px 0;
+  position: relative;
+}
+
+.comment-section .comment-section-list-btm .button-wrapper {
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.comment-section-enroll {
+  text-align: center;
+}
+.comment-section-enroll .button-wrapper {
+  margin-top: 10px;
+}
