@@ -1,4 +1,5 @@
-## Node.js
+## Node.js with express
+- This Project was developed for code test.
 
 # 결과물 구조
 - 정적파일 저장경로: /src
